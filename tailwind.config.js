@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'selector',
   theme: {
     extend: {},
     colors: {
@@ -14,7 +15,7 @@ export default {
       /*dark mode*/
      "bg-color-d":"#11121e",
      "container-color-d":"#1d1d29",
-
+ 
      /*typography colors*/
      "white-txt":"#ffffff",
      "black-txt":"#313131",

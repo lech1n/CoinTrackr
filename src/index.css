@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #f3f3f3;
+
+*{
+    @apply transition-colors duration-100;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
