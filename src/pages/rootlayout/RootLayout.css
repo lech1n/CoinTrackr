@@ -2,17 +2,14 @@
   top: 0px;
   left: 0px;
   bottom: 0px;
-  width: 12%;
+  width: 15%;
 }
 
 .outlet {
-  margin-left: 12%;
-  min-width: 88%;
+  margin-left: 15%;
+  min-width: 85%;
 }
 
-.outlet-container{
-  margin: 0 auto;
-}
 
 .navbar{
   margin: 0 auto;
