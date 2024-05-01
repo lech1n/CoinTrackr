@@ -22,6 +22,10 @@
   width: 1.5em;
 }
 
+.--tw-ring-color{
+  color: #b242f5;
+}
+
 @media screen and (min-width: 768px) {
   .rootlayout_container > div {
     width: 8%;

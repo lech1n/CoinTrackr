@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar";
 
 const RootLayout = () => {
   return (
-    <main className={`bg-bg-color-l dark:bg-bg-color-d m-0`}>
+    <main className="bg-bg-color-l dark:bg-bg-color-d m-0 h-fit">
       <div className="rootlayout_container relative text-black-txt  h-dvh w-dvh min-h-[250px] min-w-[250px]">
         <div className="fixed p-2 lg:p-3 xl:p-4">
           <Aside />

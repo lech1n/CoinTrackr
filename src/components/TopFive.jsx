@@ -7,17 +7,17 @@ const TopFive = () => {
     const topFiveCoins = coinDataGlobal.slice(0 , 4)
 
     const redText={
-      color:"red",
+      color:"#e23636",
     }
    
     const greenText={
-      color:"green",
+      color:"#82dd55",
     }
 
     
     console.log(topFiveCoins)
   return (
-    <div className="p-2  grid sm:grid-cols-2 sm:justify-items-stretch lg:grid-cols-4 gap-4">
+    <div className="p-2 pt-4 lg:pt-6 grid sm:grid-cols-2 sm:justify-items-stretch lg:grid-cols-4 gap-4">
      {
         topFiveCoins.map((coins) => (
           <div key={coins.symbol} className="p-4 bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg">

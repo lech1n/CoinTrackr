@@ -25,7 +25,7 @@ export default {
      "pink":"#f23f93",
      "yellow":"#fcf6bd",
      "green":"#00f5d4",
-     "blue":"#00bbf9",
+     "blue":"#03b0ad",
      "purple":"#e4c1f9",
      "deeppurple":"#b242f5",
     },
