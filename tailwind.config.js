@@ -22,10 +22,10 @@ export default {
      "grey-txt":"#7b7b7b",
 
      /*secondary colors*/
-     "pink":"#ff99c9",
+     "pink":"#f23f93",
      "yellow":"#fcf6bd",
-     "green":"#d0f4de",
-     "blue":"#a3def9",
+     "green":"#00f5d4",
+     "blue":"#00bbf9",
      "purple":"#e4c1f9",
      "deeppurple":"#b242f5",
     },
