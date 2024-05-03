@@ -8,7 +8,7 @@ const TotalBalance = () => {
           <h3 className="dark:text-white-txt">Total Asset Value</h3>
           <h1 className="text-3xl md:text-4xl  font-semibold text-deeppurple drop-shadow-md">$110.011<span className="text-grey-txt text-xs">.00</span></h1>
         </div>
-        <div className="flex justify-between items-center flex-wrap w-full sm:w-1/2 sm:max-w-[300px] divide-x divide-grey-txt">
+        <div className="flex justify-between items-center flex-wrap w-full sm:w-1/2 sm:max-w-[300px] divide-x divide-bg-color-l dark:divide-bg-color-d">
             <div className="flex flex-col justify-center items-center text-sm lg:text-base w-2/6">
              <h3 className="text-center text-grey-txt">Today</h3>
              <div className="flex justify-between items-center gap-2">

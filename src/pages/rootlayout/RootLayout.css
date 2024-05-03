@@ -10,6 +10,10 @@
   min-width: 85%;
 }
 
+main{
+  width: auto;
+}
+
 
 .navbar{
   margin: 0 auto;

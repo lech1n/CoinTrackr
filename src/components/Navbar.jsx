@@ -30,14 +30,14 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center w-full p-2 lg:p-4 bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg">
-      <div className="flex-1 ">
+      <div className="flex-1 relative ">
         <input
-          className="relative bg-[#f3f2f4] rounded-lg p-1 pl-8 lg:p-2 lg:pl-8 w-5/6 xl:w-4/6 text-base text-grey-txt dark:bg-bg-color-d border border-bg-color-l dark:border-container-color-d"
+          className="bg-[#f3f2f4] rounded-lg p-1 pl-8 lg:p-2 lg:pl-8 w-5/6 xl:w-4/6 text-base text-grey-txt dark:bg-bg-color-d border border-bg-color-l dark:border-container-color-d"
           type="text"
           placeholder={"Find a coin..."}
         />
 
-        <div className="absolute top-4 left-4 lg:top-7 lg:left-6">
+        <div className="absolute top-2 left-2 lg:top-3 lg:left-3">
           <LuSearch className="text-base text-grey-txt" />
         </div>
       </div>
