@@ -3,9 +3,15 @@ import { SparkLineChart } from '@mui/x-charts/SparkLineChart';
 import useCoinData from "./useCoinData"
 
 const TopFive = () => {
-    const {coinDataGlobal} = useCoinData()
-    const topFiveCoins = coinDataGlobal.slice(0 , 4)
+    const {coinDataGlobal , isLoading} = useCoinData()
 
+    if (isLoading) {
+      return <div>Loading...</div>; 
+    }
+
+    console.log(coinDataGlobal)
+
+    const topFiveCoins = coinDataGlobal.data.coins.slice(0 , 4)
     const redText={
       color:"#e23636",
     }
@@ -13,6 +19,7 @@ const TopFive = () => {
     const greenText={
       color:"#82dd55",
     }
+
 
     
     console.log(topFiveCoins)

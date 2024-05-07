@@ -30,6 +30,7 @@ main{
   color: #b242f5;
 }
 
+
 @media screen and (min-width: 768px) {
   .rootlayout_container > div {
     width: 8%;

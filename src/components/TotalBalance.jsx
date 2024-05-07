@@ -3,7 +3,7 @@ import { LuArrowDownLeft , LuArrowUpRight } from "react-icons/lu"
 const TotalBalance = () => {
   return (
     <section className="p-2 pt-4 lg:pt-6">
-        <div className="bg-container-color-l dark:bg-container-color-d flex flex-col sm:flex-row sm:justify-between items-center gap-6 p-6 xl:p-8 rounded-xl drop-shadow-lg">
+        <div className="bg-container-color-l dark:bg-container-color-d flex flex-col sm:flex-row sm:justify-between items-center gap-6 p-12  rounded-xl drop-shadow-lg">
         <div>
           <h3 className="dark:text-white-txt">Total Asset Value</h3>
           <h1 className="text-3xl md:text-4xl  font-semibold text-deeppurple drop-shadow-md">$110.011<span className="text-grey-txt text-xs">.00</span></h1>

@@ -14,11 +14,11 @@ const useCoinData = () => {
       //coinrankingc1d85425c15fb3866c513aea59664bfbe418399c15c9c15a
       try {
         const response = await axios.all([
-          axios.get('https://api.coinranking.com/v2/coins?coinrankingc1d85425c15fb3866c513aea59664bfbe418399c15c9c15a'),
+          axios.get('https://api.coinranking.com/v2/coins?timePeriod=7d&coinrankingc1d85425c15fb3866c513aea59664bfbe418399c15c9c15a'),
           axios.get('https://api.coingecko.com/api/v3/search/trending?x_cg_demo_api_key=CG-3mz4o65jy7CTBzWksaMniVmx'),
           axios.get('https://api.coingecko.com/api/v3/coins/list?x_cg_demo_api_key=CG-3mz4o65jy7CTBzWksaMniVmx'),
         ])
-        setCoinDataGlobal(response[0].data.data.coins)
+        setCoinDataGlobal(response[0].data)
         setCoinDataTrending(response[1].data)
         setCoinDataList(response[2].data)
         setIsLoading(false)

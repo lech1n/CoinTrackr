@@ -8,7 +8,7 @@ import { BsGear } from "react-icons/bs";
 const Aside = () => {
   return (
     <aside className="flex flex-col items-center justify-between xl:justify-around h-full p-2 lg:p-3 bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg min-h-[250px]">
-      <div className="flex items-center gap-2 p-4 border-b-[1px] border-bg-color-l dark:border-bg-color-d">
+      <div className="flex items-center gap-2 py-2 sm:py-2 md:p-2 lg:p-4 border-b-[1px] border-bg-color-l dark:border-bg-color-d">
         <img className="w-8 min-w-7 sm:min-w-8" src={logo} alt="logo" />
         <h1 className="text-deeppurple drop-shadow-lg font-bold hidden xl:inline-flex text-xl">
           CoinTrackr.
