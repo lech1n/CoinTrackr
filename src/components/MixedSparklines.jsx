@@ -2,10 +2,10 @@ import { ResponsivePie } from '@nivo/pie'
 import useCoinData from "./useCoinData"
 
 const MixedSparklines = () => {
-   const {coinDataGlobal} = useCoinData()
+   const {coinDataGlobal , isLoading} = useCoinData()
 
-   if (!coinDataGlobal || coinDataGlobal.length === 0) {
-    return <div>Loading...</div>
+   if (isLoading) {
+    return <div>Loading...</div>; 
   }
 
   const topFiveCoins = coinDataGlobal.data.coins.slice(0, 4)
