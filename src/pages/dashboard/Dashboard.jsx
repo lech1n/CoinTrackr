@@ -3,6 +3,7 @@ import TopFive from "../../components/TopFive"
 import TotalBalance from "../../components/TotalBalance"
 import MixedSparklines from "../../components/MixedSparklines"
 import TrendingCoins from "../../components/TrendingCoins"
+import LatestPurchases from "../../components/LatestPurchases"
 
 const Dashboard = () => {
  
@@ -12,6 +13,7 @@ const Dashboard = () => {
       <TopFive />
       <MixedSparklines />
       <TrendingCoins />
+      <LatestPurchases />
     </div>
   )
 }

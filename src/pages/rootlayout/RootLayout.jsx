@@ -1,6 +1,6 @@
 import "./RootLayout.css";
 import { Outlet } from "react-router-dom";
-import Aside from "../../components/aside/Aside";
+import Aside from "../../components/Aside";
 import Navbar from "../../components/Navbar";
 
 const RootLayout = () => {

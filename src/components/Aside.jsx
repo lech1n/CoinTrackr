@@ -1,5 +1,5 @@
-import logo from "../../assets/logo.png";
-import illustration from "../../assets/illustration.svg";
+import logo from "../assets/logo.png";
+import illustration from "../assets/illustration.svg";
 import { NavLink } from "react-router-dom";
 import { IoWalletOutline , IoNewspaperOutline , IoHomeOutline} from "react-icons/io5";
 import { LuLineChart } from "react-icons/lu";
