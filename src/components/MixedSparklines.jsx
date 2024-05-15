@@ -5,7 +5,7 @@ const MixedSparklines = () => {
    const {coinDataGlobal , isLoading} = useCoinData()
 
    if (isLoading) {
-    return <div>Loading...</div>; 
+    return null; 
   }
 
   const topFiveCoins = coinDataGlobal.data.coins.slice(0, 4)

@@ -1,14 +1,14 @@
 import { useState } from "react"
 import { Sparklines , SparklinesLine } from 'react-sparklines';
 import useCoinData from "./useCoinData"
+import Skeleton from "./Skeleton";
 
 const TopFive = () => {
     const {coinDataGlobal , isLoading} = useCoinData()
 
     if (isLoading) {
-      return <div>Loading...</div>; 
+      return null
     }
-
     console.log(coinDataGlobal)
 
     const topFiveCoins = coinDataGlobal.data.coins.slice(0 , 4)
