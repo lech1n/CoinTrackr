@@ -5,7 +5,7 @@ import MixedSparklines from "../../components/MixedSparklines"
 import TrendingCoins from "../../components/TrendingCoins"
 import LatestPurchases from "../../components/LatestPurchases"
 import useCoinData from "../../components/useCoinData"
-import CryptoNews from "../../components/CryptoNews"
+//import CryptoNews from "../../components/CryptoNews"
 
 const Dashboard = () => {
   const {isLoading} = useCoinData()
@@ -18,7 +18,7 @@ const Dashboard = () => {
       <MixedSparklines />
       <TrendingCoins />
       <LatestPurchases />
-      <CryptoNews />
+     
     </div>
   )
 }
