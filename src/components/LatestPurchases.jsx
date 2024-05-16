@@ -34,7 +34,7 @@ const LatestPurchases = () => {
   return (
     <div className="p-2 pt-4 lg:pt-6">
       <div className=" p-2 lg:p-4 bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg">
-      <div className="p-2 flex align-center gap-2">
+      <div className="p-2 flex align-center gap-2 px-2 pt-2">
       <h1  className="dark:text-white-txt pb-6 font-bold text-base sm:text-lg lg:text-xl">Latest Transactions</h1>
       <span className="text-deeppurple"><HiMiniArrowsUpDown className="text-xl"/></span>
       </div>
@@ -47,7 +47,7 @@ const LatestPurchases = () => {
                <th className="px-3 py-2 sm:px-6 sm:py-3">Date</th>  
             </tr>
       {latestPurchases.map((item)=>(
-         <tr key={item.transactionId} className="border-b dark:text-white-txt border-grey-txt dark:border-purple cursor-pointer ">
+         <tr key={item.transactionId} className="border-b dark:text-white-txt border-bg-color-l dark:border-bg-color-d cursor-pointer ">
          <td className="px-3 py-2 sm:px-6 sm:py-3"> {item.transactionId}</td>
          <td className="px-3 py-2 sm:px-6 sm:py-3">{item.coinName}</td>
          <td className="px-3 py-2 sm:px-6 sm:py-3">+{item.amountPurchased}</td>

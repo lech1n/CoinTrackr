@@ -6,7 +6,11 @@ export default {
   ],
   darkMode: 'selector',
   theme: {
-    extend: {},
+    extend: { 
+      backgroundImage: {
+      'crypto-dark': "url('./assets/cryptonews.jpg')",
+      'crypto-light': "url('./assets/cryptonewsl.jpg')",
+    },},
     colors: {
       /*light mode*/
       "bg-color-l":"#f3f3f3",
@@ -29,7 +33,6 @@ export default {
      "purple":"#e4c1f9",
      "deeppurple":"#b242f5",
     },
-
     fontFamily:{
       sans:["Inter", "sans-serif"]
     }
