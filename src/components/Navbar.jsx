@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="flex justify-between items-center w-full p-2 lg:p-4 bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg">
+    <nav className="flex justify-between items-center w-full p-2 lg:p-4 bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg ">
       <div className="flex-1 relative ">
         <input
           className="bg-[#f3f2f4] rounded-lg p-1 pl-8 lg:p-2 lg:pl-8 w-5/6 xl:w-4/6 text-base text-grey-txt dark:bg-bg-color-d border border-bg-color-l dark:border-container-color-d"

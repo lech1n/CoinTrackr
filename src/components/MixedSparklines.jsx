@@ -28,7 +28,8 @@ const MixedSparklines = () => {
 
   return (
     <div className="w-full p-2 pt-4 lg:pt-6 hidden sm:block">
-     <div className="h-96 w-full p-2 lg:p-4 bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg ">
+     <div className="w-full p-2  bg-container-color-l dark:bg-container-color-d rounded-xl drop-shadow-lg flex justify-center">
+      <div className='h-96 w-[500px] 2xl:w-[300px]'>
      <ResponsivePie
         data={data}
         margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
@@ -81,6 +82,7 @@ const MixedSparklines = () => {
                 ]
             }
         ]} />
+    </div>
     </div>
     </div>
   )

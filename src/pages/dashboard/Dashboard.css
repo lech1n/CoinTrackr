@@ -1,0 +1,28 @@
+@media screen and (min-width: 1536px) {
+   .dashboard{
+    grid-template-areas: 
+    "a  b";
+   }
+    
+    .main{
+        grid-area: a;
+       
+    }
+    
+    .sidebar{
+        grid-area: b;
+        height: 100vh; 
+       
+    }
+
+    .sticky{
+        position: fixed;
+        top: 0;
+    }
+
+    .sticky + .sidebar {
+        padding-top: 102px;
+      }
+ }
+
+ 
